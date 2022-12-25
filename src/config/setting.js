@@ -55,7 +55,7 @@ export const setting = {
   // 标题
   title: 'vue3-admin-template',
   // 版权信息
-  copyright: '© hu-snail-2021 vue3-admin-element-template',
+  copyright: '© http://www.lcs90.top/ ',
   // 是否显示页面底部自定义版权信息
   footerCopyright: true,
   // 缓存路由的最大数量

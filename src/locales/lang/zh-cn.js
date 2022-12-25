@@ -8,6 +8,8 @@ export default {
     home: '首页',
     icons: '图标',
     components: '业务',
+    dictComponents: '字典 组件',
+    dictListComponents: '字典列表组件',
     eleComponents: 'Element 组件',
     charts: '图表',
     barChart: '柱状图表',

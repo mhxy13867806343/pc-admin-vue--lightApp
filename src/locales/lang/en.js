@@ -7,6 +7,8 @@ export default {
     home: 'Home',
     icons: 'Icons',
     components: 'Components',
+    dictComponents: 'dictComponents',
+    dictListComponents: 'dictListComponents',
     eleComponents: 'Element Components',
     charts: 'Charts',
     barChart: 'Bar',
