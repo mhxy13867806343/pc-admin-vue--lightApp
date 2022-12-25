@@ -10,8 +10,8 @@
     </span>
     <template #dropdown>
       <el-dropdown-menu>
-        <el-dropdown-item command="github">Github</el-dropdown-item>
-        <el-dropdown-item command="logout" divided>{{ t('navbar.logOut') }}</el-dropdown-item>
+<!--        <el-dropdown-item command="github" divided>Github</el-dropdown-item>-->
+        <el-dropdown-item command="logout">{{ t('navbar.logOut') }}</el-dropdown-item>
       </el-dropdown-menu>
     </template>
   </el-dropdown>

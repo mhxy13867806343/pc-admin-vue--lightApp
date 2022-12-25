@@ -19,7 +19,7 @@
         </template>
       </el-input>
     </el-form-item>
-    <el-form-item>
+    <el-form-item v-if="0">
       <div class="login-check">
         <el-checkbox v-model="checkedPwd">{{ t('login.rememberPwd') }}</el-checkbox>
         <el-button text type="primary">{{ t('login.forgotPwd') }}</el-button>
@@ -30,8 +30,8 @@
         t('login.loginBtn')
       }}</el-button>
     </el-form-item>
-    <el-divider>{{ t('login.thirdparty') }}</el-divider>
-    <el-form-item>
+    <el-divider v-if="0">{{ t('login.thirdparty') }}</el-divider>
+    <el-form-item v-if="0">
       <div class="login-methods">
         <icon-wechat theme="outline" size="24" fill="#333" />
         <icon-alipay theme="outline" size="24" fill="#333" />

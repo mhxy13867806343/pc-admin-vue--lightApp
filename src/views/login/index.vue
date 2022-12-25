@@ -18,7 +18,7 @@
             <el-tab-pane :label="t('login.title')" name="first">
               <LoginForm />
             </el-tab-pane>
-            <el-tab-pane :label="t('register.title')" name="second">
+            <el-tab-pane :label="t('register.title')" name="second" v-if="0">
               <RegisterForm />
             </el-tab-pane>
           </el-tabs>
